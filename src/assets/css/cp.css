@@ -1,0 +1,146 @@
+body{
+	background-color: #fff;
+}
+.header{
+	width: 100%;
+	
+}
+.header .tpp{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.18rem;
+	font-weight: 900;
+	color: #333333;
+	text-align: center;
+	padding-top: 0.12rem;
+	position: fixed;
+	top: 0;left: 0;
+	background-color: #fff;
+}
+.header .tabs .titles{
+	width: 100%;height: 0.56rem;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.14rem;
+	position: fixed;
+	top: 0.4rem;
+	left: 0;
+	background-color: #fff;
+	
+}
+.header .tabs .titles .title{
+	display: inline-block;
+	width: 0.7rem;height: 0.3rem;
+	
+	font-size: 0.14rem;
+	color: #666;
+	
+	text-align: center;
+	line-height:0.3rem ;
+}
+.header .tabs .titles .active{
+	background-color: #fabf00;
+	border-radius: 0.5rem;
+	color: #fff;
+}
+.header .tabs .cont{
+	margin-top: 0.95rem;
+	display: none;
+	background-color: #fff;
+
+}
+.header .tabs .on{
+	display: block;
+}
+.header .tabs .cont .bom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0.18rem;
+	width: 100%;height: 1.04rem;
+	border-bottom:1px solid #ccc ;
+	padding: 0 0.14rem;
+}
+.header .tabs .cont .b{
+	padding: 0;
+}
+.header .tabs .cont .bmm{
+	border: none;
+}
+.header .cont .bom .lf{
+	display: flex;
+	align-items: center;
+}
+.header .cont .bom .lf>img{
+	width: 0.8rem;height: 0.8rem;
+	margin-right: 0.15rem;
+	vertical-align: middle;
+}
+.header .cont .tp img{
+	width: 0.43rem;height: 0.24rem;
+	vertical-align: middle;
+
+}
+.header .cont .tp span{
+	display: inline-block;
+	font-size: 0.16rem;
+	color: #333;
+	font-weight:900;
+}
+.header .bom .rg .sec{
+	font-size: 0.12rem;
+	color: #666;
+	margin: 0.16rem 0;
+	
+}
+.header .bom .bm{
+	font-size: 0.12rem;
+	color: #666;
+}
+.header .bom .bm .aa{
+	color: #F03E2B;
+}
+.header .bom .rgg img{
+	width: 0.21rem;height: 0.21rem;
+	margin-top:0.4rem;
+}
+.header .cont .nav{
+
+	padding: 0.2rem 0.14rem 0;
+}
+.header .cont .ha{
+	width: 100%;height: 0.12rem;
+	background-color: #eee;
+}
+.header .cont .nav>p{
+	font-size: 0.16rem;
+	color: #333;
+	font-weight: 700;
+}
+.header .c{
+	margin-bottom: 0.5rem;
+}
+.footer{
+	width: 100%;height: 0.42rem;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;left: 0;
+}
+.footer ul{
+	display: flex;
+	justify-content: space-between;
+}
+.footer ul li{
+	width: 25%;
+	text-align: center;
+}
+.footer ul li img{
+	width: 0.18rem;height: 0.16rem;
+	margin-top: 0.03rem;
+}
+.footer ul li p{
+	font-size: 0.12rem;
+	color: #666;
+}
